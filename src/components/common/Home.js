@@ -89,7 +89,7 @@ class Home extends React.Component {
 
         <div className="right">  
           <h2>Let us choose an eposide for you...</h2>   
-          <button className=" randomButton button is-warning" onClick={this.handleClick}>Click me!</button>
+          <button onClick={this.handleClick}>Click me!</button>
           <div>
             <p>{this.state.random.name}</p> 
             <p>{this.state.random.air_date}</p> 
