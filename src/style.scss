@@ -1,12 +1,24 @@
 $buttonsColor : rgb(138, 138, 138);
 $font: 'Carter One', cursive;
 
+
 nav {
   background-image: url('http://backgrounddownload.com/wp-content/uploads/2018/09/rick-and-morty-portal-background-5.png');
   height: 40px;
   text-align: left;
   font-family: $font;
   font-size: 30px;
+}
+
+button {
+  align-self: center;
+  font-size: 15px;
+  margin: 1px 10px;
+  width: 90px;
+  background:rgb(77, 241, 44);
+  font-family: $font;
+  border: none;
+  border-radius: 5px;
 }
 
 
@@ -76,7 +88,7 @@ nav {
       background-size: cover;
       font-size: 50px;
       text-align: center; 
-      padding: 37% 20%;
+      padding: 16% 20%;
     }
 
     .top-left {
